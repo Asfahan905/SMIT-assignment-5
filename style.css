@@ -1,0 +1,880 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.parent{
+   
+    display: flex;
+}
+
+.logo{
+    width: 70px;
+    background: none;
+    position: relative;
+    top: 10px;
+    right: 0px;
+    bottom: 0px;
+    left: 30px;
+}
+
+.nav-bar{
+    display: flex;
+    gap: 50px;
+    justify-content:space-between;
+    list-style: none;
+    font-size: larger;
+    position: relative;
+    top: -50px;
+    right: 0px;
+    bottom: 60px;
+    left: 800px;
+}
+
+.image{
+    width:450px;
+    position: relative;
+    top: 150px;
+    right: 0px;
+    bottom: 0px;
+    left: 450px;
+}
+
+.h3-head{
+    width: 200px;
+    display: flex;
+    font-size: large;
+    position: relative;
+    top: 120px;
+    right: 0px;
+    bottom: 0px;
+    left: -710px;
+}
+
+.h1-head{
+    width: 800px;
+    display: flex;
+    font-size: xxx-large;
+    position: relative;
+    top: 150px;
+    right: 0px;
+    bottom: 0px;
+    left: -910px;
+}
+
+.para{
+    width: 500px;
+    display:flex;
+    word-spacing: 3px;
+    font-size: x-large;
+    position: relative;
+    top: 220px;
+    right:0px ;
+    bottom:0px ;
+    left: -1700px;
+}
+
+.contact{
+   width: 200px;
+    height: 50px;
+    background-color: #2D2D2D;
+    /* border: hidden; */
+    color: ghostwhite;
+    position: relative;
+    top:320px ;
+    right: 0px;
+    bottom: 0px;
+    left:-2150px ;
+
+}
+
+.project{
+    display: flex;
+    color:#000000;
+}
+
+.logo-google{
+    width: 100px;
+    background:none;
+    position: relative;
+    top:500px ;
+    right: 0px;
+    bottom: 0px;
+    left: -2480px;
+
+}
+
+.logo-nike{
+    width: 80px;
+    position: relative;
+    top:480px ;
+    right: 0px;
+    bottom: 0px;
+    left: -2400px;
+
+}
+
+.logo-samsung{
+    width: 100px;
+    background:none;
+    position: relative;
+    top:470px ;
+    right: 0px;
+    bottom: 0px;
+    left: -2300px;
+
+}
+
+.logo-apple{
+    width: 60px;
+    background:none;
+    position: relative;
+    top:480px ;
+    right: 0px;
+    bottom: 0px;
+    left: -2200px;
+
+}
+
+        
+.logo-addidas{
+    width: 100px;
+    background:none;
+    position: relative;
+    top:460px ;
+    right: 0px;
+    bottom: 0px;
+    left: -2100px;
+
+}
+
+.parent-two{
+    display: flex;
+
+}
+
+.child-1{
+width: 100px;
+height: 100px;
+background-color: #F3AFA8; 
+border-radius: 50px 50px 0px 0px;
+ position: relative;
+    top:600px ;
+    right: 0px;
+    bottom:100px;
+    left: -2800px;
+
+}
+
+.child-2{
+    width: 300px;
+    display:flex;
+     position: relative;
+    top:730px ;
+    right: 0px;
+    bottom:100px;
+    left: -2910px;
+
+}
+
+.child-3{
+    display: flex;
+    gap: 10px;
+position: relative;
+    top:790px ;
+    right: 0px;
+    bottom:100px;
+    left: -3120px;
+
+}
+
+.child-4{
+    width: 100px;
+    height: 100px;
+   background-color: #FF6250;
+   border-radius: 0px 100px 0px 0px;
+    position: relative;
+    top:600px ;
+    right: 0px;
+    bottom:100px;
+    left: -2910px;
+
+}
+
+.child-5{
+    width: 290px;
+    display:flex;
+     position: relative;
+    top:730px ;
+    right: 0px;
+    bottom:100px;
+    left: -3000px;
+
+}
+
+.child-6{
+    display: flex;
+    gap: 10px;
+ position: relative;
+    top:790px ;
+    right: 0px;
+    bottom:100px;
+    left: -3200px;
+
+}
+
+.child-7{
+    width: 100px;
+    height: 100px;
+    background-color: #009379;
+    border-radius: 0px 40px 0px 40px;
+     position: relative;
+    top:600px ;
+    right: 0px;
+    bottom:100px;
+    left: -2940px;
+}
+
+.child-8{
+    width: 290px;
+    display:flex;
+     position: relative;
+    top:740px ;
+    right: 0px;
+    bottom:100px;
+    left: -3020px;
+
+}
+
+.child-9{
+ display: flex;
+    gap: 10px;
+     position: relative;
+    top:790px ;
+    right: 0px;
+    bottom:100px;
+    left: -3220px;
+
+}
+
+.parent-three{
+ position: relative;
+    top:1100px ;
+    right: 0px;
+    bottom:100px;
+    left: -3910px;
+}
+
+.head-1{
+    width: 300px;
+}
+
+.image-1{
+width: 200px;
+height: 200px;
+position: relative;
+top:50px ;
+right:0px ;
+bottom:0px ;
+left:-350px ;
+}
+
+.image-2{
+width: 200px;
+position: relative;
+top: -380px;
+right:0px ;
+bottom: 0px;
+left: 0px;
+}
+
+.image-3{
+width: 200px;
+height: 200px;
+position: relative;
+top:-610px ;
+right:0px ;
+bottom: 0px;
+left: 300px;
+}
+
+.image-4{
+width: 200px;
+position: relative;
+top:-750px ;
+right: 0px;
+bottom:0px ;
+left:-350px ;
+}
+
+.image-5{
+width: 200px;
+height: 200px;
+position: relative;
+top:-990px ;
+right: 0px;
+bottom:0px ;
+left:-10px ;
+}
+
+.image-6{
+width: 200px;
+position: relative;
+top:-1230px ;
+right:0px ;
+bottom:0px ;
+left: 300px;
+}
+
+.para-1{
+width: 200px;
+height: 200px;
+position: relative;
+top:50px ;
+right:0px ;
+bottom:0px ;
+left:-350px ;
+}
+
+.para-10{
+position: relative;
+top:-110px ;
+right:0px ;
+bottom:0px ;
+left:-350px ;
+}
+
+.para-2{
+width: 200px;
+position: relative;
+top: -370px;
+right:0px ;
+bottom: 0px;
+left: 0px;
+}
+
+.para-20{
+position: relative;
+top: -350px;
+right:0px ;
+bottom: 0px;
+left: 0px;
+}
+
+.para-3{
+width: 200px;
+height: 200px;
+position: relative;
+top:-610px ;
+right:0px ;
+bottom: 0px;
+left: 300px;
+}
+
+.para-30{
+position: relative;
+top:-770px ;
+right:0px ;
+bottom: 0px;
+left: 300px;
+}
+
+.para-4{
+width: 200px;
+position: relative;
+top:-750px ;
+right: 0px;
+bottom:0px ;
+left:-350px ;
+}
+
+.para-40{
+    position: relative;
+top:-730px ;
+right: 0px;
+bottom:0px ;
+left:-350px ;
+}
+
+.para-5{
+width: 200px;
+position: relative;
+top:-990px ;
+right: 0px;
+bottom:0px ;
+left:-10px ;
+}
+
+.para-50{
+position: relative;
+top:-970px ;
+right: 0px;
+bottom:0px ;
+left:-10px ;
+}
+
+.para-6{
+width: 200px;
+position: relative;
+top:-1230px ;
+right:0px ;
+bottom:0px ;
+left: 300px;
+}
+
+.para-60{
+position: relative;
+top:-1210px ;
+right:0px ;
+bottom:0px ;
+left: 300px;
+}
+
+.head-2{
+    width: 300px;
+    position: relative;
+top:1900px ;
+right:0px ;
+bottom:0px ;
+left: -4240px;
+}
+
+.C\.T-1{
+    width: 400px;
+    height: 400px;
+    background-color:#F1F1F1;
+    position: relative;
+    top:2000px ;
+right:0px ;
+bottom:0px ;
+left: -4700px;
+}
+.C\.T\.P-1{
+position: relative;
+top:50px ;
+right:0px ;
+bottom: 0px;
+left:100px ;
+} 
+.C\.T\.I-1{
+width: 50px;
+border-radius: 50px;
+position: relative;
+top:170px ;
+right: 0px;
+bottom:0px ;
+left:50px ;
+}
+.C\.T\.S-1{
+    background-color: rgb(138, 145, 145);
+    width: 80px;
+    height: 80px;
+    border-radius: none;
+    position: relative;
+    top: 80px;
+    right: 0px;
+    bottom: 0px;
+    left: 110px;
+}
+.C\.T\.N-1{
+    width: 0px;
+    height: 0px;
+    position: relative;
+    top: 60px;
+    right: 0px;
+    bottom: 0px;
+    left: 110px;
+    font-size: large;
+}
+.C\.T\.G-1{
+    position: relative;
+    top: 90px;
+    right: 0px;
+    bottom: 0px;
+    left: 110px;
+}
+
+
+
+.C\.T-2{
+    width: 400px;
+    height: 400px;
+    background-color:#F1F1F1;
+    position: relative;
+    top:1600px ;
+    right:0px ;
+    bottom:0px ;
+    left:-4290px;
+}
+.C\.T\.S-2{
+    background-color:  rgb(138, 145, 145);
+    width: 80px; 
+    height: 80px;
+    border-radius: none;
+    position: relative;
+    top: 80px;
+    right: 0px;
+    bottom: 0px;
+    left: 110px;
+}
+.C\.T\.N-2{
+      width: 0px;
+    height: 0px;
+    position: relative;
+    top: 60px;
+    right: 0px;
+    bottom: 0px;
+    left: 110px;
+    font-size: large;
+}
+.C\.T\.G-2{
+position: relative;
+    top: 90px;
+    right: 0px;
+    bottom: 0px;
+    left: 110px;
+}
+ .C\.T\.P-2{
+position: relative;
+top:50px ;
+right:0px ;
+bottom: 0px;
+left:100px ;
+} 
+.C\.T\.I-2{
+width: 50px;
+border-radius: 50px;
+position: relative;
+top:170px ;
+right:0px ;
+bottom:0px ;
+left:50px ;
+}
+
+
+
+.C\.T-3{
+ width: 400px;
+    height: 400px;
+    background-color:#F1F1F1;
+    position: relative;
+    top:1200px ;
+    right:0px ;
+    bottom:0px ;
+    left: -3880px;
+}
+.C\.T\.P-3{
+    position: relative;
+    top:50px ;
+    right:0px ;
+    bottom: 0px;
+    left:100px ;
+} 
+.C\.T\.I-3{
+    width: 50px;
+    border-radius: 50px;
+    position: relative;
+    top:170px ;
+    right:0px ;
+    bottom: 0px;
+    left:50px ;
+}
+.C\.T\.S-3{
+    background-color:  rgb(138, 145, 145);
+    width: 80px; 
+    height: 80px;
+    border-radius: none;
+    position: relative;
+    top: 80px;
+    right: 0px;
+    bottom: 0px;
+    left: 110px;
+}
+.C\.T\.N-3{
+    width: 0px;
+    height: 0px;
+    position: relative;
+    top: 60px;
+    right: 0px;
+    bottom: 0px;
+    left: 110px;
+    font-size: large;
+}
+.C\.T\.G-3{
+    position: relative;
+    top: 90px;
+    right: 0px;
+    bottom: 0px;
+    left: 110px;
+}
+
+
+
+
+.C\.T-4{
+ width: 400px;
+    height: 400px;
+    background-color:#F1F1F1;
+    position: relative;
+    top:1250px ;
+    right:0px ;
+    bottom:0px ;
+    left: -4700px;
+}
+.C\.T\.P-4{
+    position: relative;
+    top:50px ;
+    right:0px ;
+    bottom: 0px;
+    left:100px ;
+}
+.C\.T\.I-4{
+    width: 50px;
+    border-radius: 50px;
+    position: relative;
+    top:170px ;
+    right: 0px;
+    bottom: 0px;
+    left:50px ;
+}
+.C\.T\.S-4{
+    background-color:  rgb(138, 145, 145);
+    width: 80px; 
+    height: 80px;
+    border-radius: none;
+    position: relative;
+    top: 80px;
+    right: 0px;
+    bottom: 0px;
+    left: 110px;
+}
+.C\.T\.N-4{
+    width: 0px;
+    height: 0px;
+    position: relative;
+    top: 60px;
+    right: 0px;
+    bottom: 0px;
+    left: 110px;
+    font-size: large;
+}
+.C\.T\.G-4{
+    position: relative;
+    top: 90px;
+    right: 0px;
+    bottom: 0px;
+    left: 110px;
+}
+
+
+
+.C\.T-5{
+    width: 400px;
+    height: 400px;
+    background-color:#F1F1F1;
+    position: relative;
+    top:850px ;
+    right:0px ;
+    bottom:0px ;
+    left:-4290px;
+}
+ .C\.T\.P-5{
+    position: relative;
+    top:50px ;
+    right:0px ;
+    bottom: 0px;
+    left:100px ;
+} 
+.C\.T\.I-5{
+    width: 50px;
+    border-radius: 50px;
+    position: relative;
+    top:170px ;
+    right: 0px;
+    bottom: 0px;
+    left:50px ;
+}
+.C\.T\.S-5{
+    background-color:  rgb(138, 145, 145);
+    width: 80px; 
+    height: 80px;
+    border-radius: none;
+    position: relative;
+    top: 80px;
+    right: 0px;
+    bottom: 0px;
+    left: 110px;
+}
+.C\.T\.N-5{
+    width: 0px;
+    height: 0px;
+    position: relative;
+    top: 60px;
+    right: 0px;
+    bottom: 0px;
+    left: 110px;
+    font-size: large;   
+}
+.C\.T\.G-5{
+    position: relative;
+    top: 90px;
+    right: 0px;
+    bottom: 0px;
+    left: 110px;
+}
+
+
+
+.C\.T-6{
+    width: 400px;
+    height: 400px;
+    background-color:#F1F1F1;
+    position: relative;
+    top:450px ;
+    right:0px ;
+    bottom:0px ;
+    left: -3880px;
+}
+ .C\.T\.P-6{
+    position: relative;
+    top:50px ;
+    right:0px ;
+    bottom: 0px;
+    left:100px ;
+} 
+.C\.T\.I-6{
+   width: 50px;
+   border-radius: 50px;
+   position: relative;
+   top:170px ;
+   right:0px ;
+   bottom:0px ;
+   left:50px ;
+}
+.C\.T\.S-6{
+    background-color:  rgb(138, 145, 145);
+    width: 80px; 
+    height: 80px;
+    border-radius: none;
+    position: relative;
+    top: 80px;
+    right: 0px;
+    bottom: 0px;
+    left: 110px;
+}
+.C\.T\.N-6{
+    width: 0px;
+    height: 0px;
+    position: relative;
+    top: 60px;
+    right: 0px;
+    bottom: 0px;
+    left: 110px;
+    font-size: large;     
+}
+.C\.T\.G-6{
+  position: relative;
+    top: 90px;
+    right: 0px;
+    bottom: 0px;
+    left: 110px;   
+}
+
+
+.head-3{
+    position: relative;
+    top: 600px;
+    right: 0px;
+    bottom: 0px;
+    left: 50px;
+}
+.para-100{
+    position: relative;
+    top: 620px;
+    right: 0px;
+    bottom: 0px;
+    left: 50px;
+}
+
+.Discord{
+    width: 30px;
+    position: relative;
+    top: 680px;
+    right: 0px;
+    bottom: 0px;
+    left: 50px;
+}
+
+.Facebook{
+    width: 30px;
+    border-radius: 70px;
+    position: relative;
+    top: 650px;
+    right: 0px;
+    bottom: 0px;
+    left: 100px;
+}
+
+.youtube{
+    width: 50px;
+    position: relative;
+    top: 605px;
+    right: 0px;
+    bottom: 0px;
+    left: 145px; 
+}
+
+.Instagram{
+    width: 30px;
+    position: relative;
+    top:565px;
+    right: 0px;
+    bottom: 0px;
+    left: 210px; 
+}
+
+.Linkedin{
+    width: 40px;
+    position: relative;
+    top:525px;
+    right: 0px;
+    bottom: 0px;
+    left: 260px;
+}
+
+.Name{
+    width: 200px;
+    height: 30px;
+    background-color:rgb(222, 222, 222) ;
+    border: white;
+    position: relative;
+    top:525px;
+    right: 0px;
+    bottom: 0px;
+    left: 1000px;
+}
+
+.Email{
+    width: 200px;
+    height: 30px;
+    background-color:rgb(222, 222, 222) ;
+    border: white;
+    position: relative;
+    top:540px;
+    right: 0px;
+    bottom: 0px;
+    left: 1000px;
+}
+
+.btn{
+    width: 100px;
+    height: 50px;
+    background-color: #000000;
+    color: #F1F1F1;
+position: relative;
+    top:560px;
+    right: 0px;
+    bottom: 0px;
+    left: 1000px;
+}
